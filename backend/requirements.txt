@@ -1,0 +1,9 @@
+django
+djangorestframework
+django-cors-headers
+pendulum
+pillow
+psycopg2
+pandas
+python-dotenv
+numpy

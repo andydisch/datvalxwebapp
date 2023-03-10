@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+.list-group-item {
+  width: 100%;
+}
+
+.tab-alarm-text {
+  padding-right: 1rem;
+  width: 50%;
+}
+
+.tab-icon {
+  padding-right: 1rem;
+  width: 22%;
+}
+
+.tab-buttons {
+  padding-right: 1rem;
+  width: 28%;
+}
+
+.tab-alarm-title {
+  padding: 30px;
+  font-size: 35px;
+  color: rgb(1, 1, 1);
+  font-weight: normal;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.tab-btn {
+  margin-right: 1rem;
+}
+
+.center-img {
+  width: 50%;
+}
+
+.col-md-6 {
+  margin-top: 2rem;
+}
+
+.input-bar {
+  margin-bottom: 15px;
+}
+
+.input-searchbar {
+  padding: 0.35rem;
+  width: 80%;
+}
+
+.input-checkbox {
+  padding: 0.35rem;
+  width: 20%;
+  text-align: right;
+}
+
+.input-checkbox-box {
+  margin-left: 15px;
+}
+
+.nav-site {
+  height: 45px;
+  display: flex;
+}
+
+.nav {
+  font-size: x-large;
+  background: rgb(1, 170, 232);
+  height: 65px;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+}
+
+.nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-container {
+  background-image: url("https://www.eawag.ch/fileadmin/Domain1/Abteilungen/sww/schwerpunkte/urbanhydrologisches_feldlabor/180115_faf_sensornetz_840x420.gif");
+}
+
+.nav-containertext {
+  color: black;
+  font-size: 35px;
+  opacity:0.7;
+  background-blend-mode: color;
+  float: right;
+}
+
+.nav-origintext {
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.nav-containertext:hover {
+  color: rgb(1, 170, 232);
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins";
+}
