@@ -1,13 +1,9 @@
-FROM  python:3.10-alpine
+FROM  python:3.11
 
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
 
 WORKDIR /backend
-
-RUN apk add --no-cache --update \
-    python3 python3-dev gcc \
-    gfortran musl-dev
 
 COPY requirements.txt /backend
 
