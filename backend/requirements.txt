@@ -1,4 +1,4 @@
-django
+Django
 djangorestframework
 django-cors-headers
 pendulum
